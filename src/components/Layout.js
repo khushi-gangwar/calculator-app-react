@@ -49,7 +49,7 @@ function Layout(props) {
       <div className='calculator'>
         <br></br>
         <Output user={input} answer={result}/>
-        <img src={logo} width='300px'/>
+        <img src={logo} alt='..'width='300px'/>
         <fiv className='keys'>
           <input type='button' value={'C'} className='button clear' onClick={handleClick}></input>
           <input type='button' value={'DEL'} className='button clear' onClick={handleClick}></input>
